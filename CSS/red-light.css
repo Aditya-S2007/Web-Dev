@@ -1,0 +1,69 @@
+/* #outer{
+    height: 200px;
+    width: 70px;
+   
+    border: 2px solid black;
+}
+.A{
+    background-color: red;
+    
+
+}
+.B{
+    background-color: yellow;
+
+}
+.C{
+    background-color: green;
+
+}
+div div{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    border: 2px solid black;
+    border-radius: 100%; 
+
+    
+} */
+#face{
+    background-color: yellow;
+    border:2px solid black;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+}
+.eye{
+    background-color: black;
+    border:2px solid black;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 35px;
+    
+}
+.eyetwo{
+    background-color: black;
+    border:2px solid black;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 35px;
+
+}
+.smile{
+    background-color: red;
+    border-color: 2px solid red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    height: 35px;
+    width: 100px;
+    margin-top:35px;
+    margin-left:45px;
+    margin-bottom:5px;
+}

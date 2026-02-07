@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.youtube.com/results">
+        youtube shortcut
+        <input type="text" placeholder="enter of result" name="search_query">
+        <button>search</button>
+    </form>
+    <form action="https://www.google.com/search">
+        google
+        <input type="text" placeholder="enter to search" name="q">
+        <button>search</button>
+    </form>
+    <form>
+        <input type="checkbox" name="feedback" id="feedback">
+        <label for="feedback">are u satisfied &hearts;</label>
+        <div>
+            <input type="radio" name="star" id="1" >
+            <label for="1">&star;&star;&star;&star;</label>
+             <input type="radio" name="star" id="2" >
+            <label for="2">&star;&star;&star;</label>
+             <input type="radio" name="star" id="3" >
+            <label for="3">&star;&star;</label>
+             <input type="radio" name="star" id="4" >
+            <label for="4">&star;</label>
+        </div>
+        <div>
+            <label for="profession">choose ur profession</label>
+            <select name="profession" id="profession">
+                <option >select ur option</option>
+                <option value="stu">Student</option>
+                <option value="dev">devloper</option>
+                <option value="tea">teacher</option>
+    
+            </select>
+        </div>
+        <div>
+            <label for="vol">select volume</label>
+            <input type="range" min="0" max="100" id="vol" name="vol">
+        </div>
+        <div>
+            <label for="review">pls get ur review</label>
+            <textarea id="review" rows="4" cols="10"></textarea>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>

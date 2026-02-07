@@ -1,0 +1,37 @@
+.one{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border:5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+    transition:margin-right 2s linear 0.2s ;
+}
+.one:hover{
+    background-color:rgba(224, 35, 69, 0.4);
+    /* border-radius: 100%; */
+
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color:pink ;
+    border: 2px solid black;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+.two:hover{
+    box-shadow:20px 56px black;
+    transition: 1s linear 0.2s;
+    transform: rotate(30deg);
+}
+
+div ul li{
+    display: inline-block;
+}
