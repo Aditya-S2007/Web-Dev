@@ -66,14 +66,37 @@
 // multi(greet,2);
 
 // calculator
-const cal={
-    add:function(a,b){
-        return a+b;
-    },
-    sub:function(a,b){
-        return a-b;
-    },
-    mul:function(a,b){
-        return a*b;
-    }
-}
+// const cal={
+//     add:function(a,b){
+//         return a+b;
+//     },
+//     sub:function(a,b){
+//         return a-b;
+//     },
+//     mul:function(a,b){
+//         return a*b;
+//     }
+// }
+
+// time-out func
+
+// console.log("aditya");
+// setTimeout(()=>{
+//     console.log("welcome back..!!!");
+// },5000);
+// console.log("sharma");
+
+
+// squareroot
+// let squ=(n) =>(n*n);
+
+
+
+let id =setInterval(()=>{
+    console.log("apna college");
+},2000);
+
+setInterval(()=>{
+    clearInterval(id);
+    console.log("run has ended");
+},10000);
