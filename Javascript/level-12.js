@@ -133,6 +133,7 @@ btn.addEventListener("click", async ()=>{
 });
 function show(colArr) {
     let list=document.querySelector("#list");
+    list.innerText="";
     for (col of colArr) {
         console.log(col.name);
         let li=document.createElement("li");
