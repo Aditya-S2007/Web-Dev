@@ -58,7 +58,7 @@ const Book= mongoose.model("Book",bookSchema);
 
 //     })
 
-Book.findByIdAndUpdate('69c7bd37dc5793f052fdda68',{price:-500},{runValidators:true}) // its helps the above schema to be in rule applied in update
+Book.findByIdAndUpdate('69c7bd37dc5793f052fdda68',{price:-500},{runValidators:true}) // "It ensures the above schema rules are enforced during the update process
     .then((res)=>{console.log(res);
     })
     .catch((err)=>{
