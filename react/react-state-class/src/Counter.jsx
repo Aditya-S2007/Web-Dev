@@ -1,10 +1,16 @@
 import { useState } from "react";
 
+function init() {
+console.log("init was called") // this will be called in every re-render cause of init() sol:- remove this () usestate will automaticly exc. init function
+return Math.random();
+
+}
+
 export default function Counter() {
   // let arr = useState()
   // console.log(arr);
   // let [stateVariable, setStateVariable] = useState(10);
-  let [count, setCount] = useState(0);
+  let [count, setCount] = useState(init); // initialization
   let incCount = () => {
     setCount(count+1); // this will trigger re render
     console.log(count);
