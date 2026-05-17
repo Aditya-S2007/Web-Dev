@@ -4,13 +4,15 @@ import ProductTab from "./ProductTab.jsx";
 import Title from "./Title.jsx";
 // import Product from "./product.jsx";
 // import MsgBox from "./MsgBox.jsx";
+import Form from "./Form.jsx";
 
 
 function App() {
   let styles={textAlign:"center"}
   return (
     <>
-    <Button/>
+    {/* <Button/> */}
+    <Form/>
     </>  
   ); 
 }
